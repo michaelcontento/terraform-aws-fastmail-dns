@@ -1,4 +1,5 @@
-variable "zone_id" {}
+variable "zone_id" {
+}
 
 variable "create_spf" {
   default = true
@@ -31,3 +32,4 @@ variable "create_wildcard_mx" {
 variable "create_dkim_cnames" {
   default = true
 }
+
